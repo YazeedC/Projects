@@ -15,14 +15,6 @@ box-shadow: inset 21px 21px 30px #71a1fa,
             inset -21px -21px 30px #71a1fa;
 }
 
-
-.block1 {
- 
-    
-    height: 100vh;
-   width: 100vw;
-}
-
 .text {
   height: 280px;
   width: 200px;
@@ -31,7 +23,7 @@ box-shadow: inset 21px 21px 30px #71a1fa,
   background: url(https://www.xtrafondos.com/wallpapers/vertical/estrellas-en-la-galaxia-4110.jpg) no-repeat center center / 100vw auto;
   box-shadow: inset 16px 16px 45px #080808,
               inset -16px -16px 45px #0b0c0c;
-  top: 35%;
+  top: 20%;
   left: 60%;
   border-radius: 10%;
 }
@@ -41,12 +33,13 @@ box-shadow: inset 21px 21px 30px #71a1fa,
 
 img {
     
-    border-radius: 20%;
-    height: 150px;
-    width: 200px;
+    border-radius: 10%;
+    height: 250px;
+    width: 250px;
     position: absolute;
     top: 49%;
     left: 15%;
+    opacity: 0.6 ;
     -webkit-animation: rotate-scale-up 1s linear  2 both;
 	        animation: rotate-scale-up 1s linear  2 both;
         
@@ -168,8 +161,8 @@ background: url(https://image.freepik.com/free-vector/galaxy-earth-sun-stars-out
     height: 280px;
     width: 200px;
     background: url(https://www.xtrafondos.com/wallpapers/vertical/estrellas-en-la-galaxia-4110.jpg) no-repeat center center / 100vw auto;
-    position:sticky;
-    top: 44%;
+    position:absolute;
+    top: 83%;
     left: 60%;
     border-radius: 10%;
     box-shadow: inset 16px 16px 45px #317191,
