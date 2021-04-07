@@ -1,0 +1,54 @@
+body{
+    margin: 200px;
+        border: 0px;
+        background-color:black;
+       
+      
+    }
+    
+    p,form {
+      margin: 40px;
+      position: relative;
+      text-align: center;
+      bottom: 400px;
+      color:red;
+     font-family: 'Courier New', Courier, monospace;
+      padding: bottom 20px;
+    }
+    
+    .container {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: -170px;
+      width: 50%;
+      text-align: center;
+      padding: 30px;
+      transform: scale(3.5);
+      top: 40px;
+    }
+    
+    h1 {
+      position:relative;
+      text-align:center;
+      color:red;
+      bottom: 100px;
+    }
+    
+    .logo {
+     position:absolute;
+      top: 120%;
+      left:80%;
+      transform:scale(1);
+    }
+    
+    .logo-left{
+      position:absolute;
+      top: 120%;
+      right:80%;
+      transform:scale(1);
+    }
+
+    #div {
+      text-align: left;
+    }
